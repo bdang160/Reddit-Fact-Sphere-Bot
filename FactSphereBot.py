@@ -8,7 +8,7 @@ import time
 
 r = praw.Reddit(user_agent = "Fact Sphere Bot /u/azangi700")
 print("Logging in...")
-r.login("Fact_Sphere_Bot", "Portal1!")
+r.login("Fact_Sphere_Bot", "")
 
 COMPLETED_COMMENTS = "done.txt"
 KEYFACTS = "FactSphereFactsKey.txt"
